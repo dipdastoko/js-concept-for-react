@@ -10,3 +10,6 @@ const addToLocalStorage = () => {
     valueInput.value = '';
 
 }
+let person = null;
+
+console.log(person ? person : "person is null");
